@@ -35,6 +35,6 @@ build/
 .DS-Store
 .metadata
 
-
+mvn
 mvnw
 mnvw.cmd
