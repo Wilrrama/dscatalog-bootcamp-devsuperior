@@ -54,3 +54,14 @@ INSERT INTO tb_product_category (product_id, category_id) VALUES (22, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (23, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (24, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (25, 3);
+
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Lemmy Kilmister','1234567890','9560.00', TIMESTAMP WITH TIME ZONE '1945-05-07 00:22:50Z','3');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Chico Anisio','2134567890','7200.00', TIMESTAMP WITH TIME ZONE '1965-05-07 00:22:50Z','7');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('David Austin','1234589067','5600.00', TIMESTAMP WITH TIME ZONE '1975-05-07 00:22:50Z','4');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('James Son','1234567089','8000.00', TIMESTAMP WITH TIME ZONE '1985-05-07 00:22:50Z','3');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Marlene Alves','1236789045','5000.00', TIMESTAMP WITH TIME ZONE '1990-05-07 00:22:50Z','2');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Wilson Franchi','1256789034','3000.00', TIMESTAMP WITH TIME ZONE '1943-05-07 00:22:50Z','2');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Willian Santos','3456789012','7000.00', TIMESTAMP WITH TIME ZONE '1947-05-07 00:22:50Z','1');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Valdir Pietro','4567890123','10000.00', TIMESTAMP WITH TIME ZONE '1980-05-07 00:22:50Z','2');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Walter Pietro','1234589067','4000.00', TIMESTAMP WITH TIME ZONE '1983-05-07 00:22:50Z','2');
+INSERT INTO TB_CLIENT (name,cpf,income,birth_date,children) VALUES ('Ana Paula','1234789056','5000.00', TIMESTAMP WITH TIME ZONE '1995-05-07 00:22:50Z','1');
