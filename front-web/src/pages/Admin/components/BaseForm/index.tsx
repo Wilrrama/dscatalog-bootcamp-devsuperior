@@ -4,9 +4,10 @@ import './styles.scss';
 
 type Props = {
     title: string;
+    children: React.ReactNode;
 }
 
-const BaseForm = ({title}:Props) => {
+const BaseForm = ({title, children}:Props) => {
     const history = useHistory();
 
     const handleCancel = () => {
@@ -18,7 +19,7 @@ const BaseForm = ({title}:Props) => {
             <h1 className="base-form-title">
                 {title}
             </h1>
-
+                {children}
         <div className="base-form-actions">
             <button className="btn btn-outline-danger boder-radius-10 mr-3 btn-lg"
             onClick={handleCancel}
